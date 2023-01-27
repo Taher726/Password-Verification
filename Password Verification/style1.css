@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+@keyframes rotate{
+    100%{
+        background-position:0% 50%;
+    }
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("background.svg");
+    background-repeat: no-repeat;
+    background-size: 300vh;
+    font-family: "Euclid Circular A";
+    color: #3a334e;
+    animation: rotate 1s infinite alternate linear;
+}
+.submit{
+    height: 200px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+.submit i{
+    font-size: 40px;
+    padding-top: 50px;
+    color: #5271FF;
+}
+.submit h1{
+    font-family: "Euclid circular A";
+}
